@@ -6,12 +6,20 @@ To design and develop a prototype application for Named Entity Recognition (NER)
 ### PROBLEM STATEMENT:
 
 ### DESIGN STEPS:
+### Step1: Install Required Libraries:
+Install the necessary Python libraries such as transformers, torch, and gradio.
 
-#### STEP 1:
+### Step2: Load the NER Model:
+Use the transformers library to load a fine-tuned BART model for NER, for example, dslim/bart-large-ner.
 
-#### STEP 2:
+### Step3: Prepare the Output Format:
+Organize the model output so that entities and their labels can be clearly highlighted in the interface.
 
-#### STEP 3:
+### Step4: Build the Gradio Interface:
+Create a user-friendly interface with a text input box and a highlighted output display using the Gradio framework.
+
+### Step5: Customize the Interface:
+Add colors for each entity type (like red for people, blue for organizations, green for locations) and include a title and description.
 
 ### PROGRAM:
 ```
